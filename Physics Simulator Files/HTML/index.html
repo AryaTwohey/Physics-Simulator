@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Forces-Simulation</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); 
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+</style>
+
+<body>
+    <section class="section">
+        <div class="container">
+
+            <ul class="is-flex">
+               
+                <button class="button ml-4 is-rounded " id="navBtns"><a href="../HTML/home.html"
+                        id="navBtns">Home</a></button>
+                <button class="button ml-4 is-rounded" id="navBtns"><a href="../HTML/help.html"
+                        id="navBtns">Help</a></button>
+            </ul>
+            <div class="hero has-text-centered is-size-1">
+                <nav>Forces Simulation</nav>
+            </div>
+        </div>
+    </section>       
+
+    <div class="middle-container is-flex" id="mid-contain">
+        <nav>
+            <div class="navbar" id="nav">
+              <div class="container nav-container ">
+                  <input class="checkbox" type="checkbox" name="check"/>
+
+                  <div class="hamburger-lines" id="check">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                    
+                  </div>  
+            
+                <div class="logo">
+
+                </div>
+
+                <div class="menu-items" id="menu">
+                <li><h1>Tools</h1></li>
+                  <li><a href="#"><button class="button" id="hamburger-btn" onclick="ptGraph(newChart, 'Position')">Position</button></a></li>
+                  <li><a href="#"><button class="button" id="hamburger-btn" onclick="vtGraph(newChart, 'Velocity')">Velocity</button></a></li>
+                  <li><a href="#"><button class="button" id="hamburger-btn" onclick="atGraph(newChart, 'Acceleration')">Acceleration</button></a></li>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div class="canvas-container has-text-centered">
+                <canvas id="chart"></canvas>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+
+        <div class="container" id="inputContainer">
+            <div class="container-content">
+                <p class="ml-4 is-size-3 mb-2.5">Enter Info Here</p>
+                <ul class="forces is-flex ">
+
+                    <li class="ml-3"><input type="text" class="input" placeholder="Force Applied (N)"></li>
+                    <li class="ml-3"><input type="text" class="input" placeholder="Force Friction (N)"></li>
+                </ul>
+                <br>
+                <ul class="otherInfo is-flex">
+                    <li class="ml-3"><input type="text" class="input" placeholder="Mass (KG)"></li>
+                    <li class="ml-3"><input type="text" class="input" placeholder="Incline Angle (°)"></li>
+                </ul>
+                <ul class="submit is-flex mt-5">
+                    <li class="ml-3"><button class="button" id="submitBtn">Submit</button></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="../JS/index.js"></script>
