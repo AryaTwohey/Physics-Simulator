@@ -1,5 +1,5 @@
 # Physics Simulation Project
-Physics simulation app which can display different concepts within dynamics
+Physics simulation app which can display a variety of concepts within dynamics
 ___________________________________________________________________________________________________________________________________________________________
  **Built With** 
 <br>
