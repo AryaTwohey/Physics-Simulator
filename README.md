@@ -12,3 +12,6 @@ ________________________________________________________________________________
 
 # Figma Layout
 ![image](https://user-images.githubusercontent.com/90357392/223280824-ec8028f1-c835-4a9c-9da3-f83db3a70c40.png)
+
+
+# Proposal
