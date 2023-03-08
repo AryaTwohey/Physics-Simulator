@@ -9,9 +9,14 @@ ________________________________________________________________________________
 
 
 
-
+  
 # Figma Layout
 ![image](https://user-images.githubusercontent.com/90357392/223280824-ec8028f1-c835-4a9c-9da3-f83db3a70c40.png)
 
 
 # Proposal
+  ___________________________________________________________________________________________________________________________________________________________
+
+  This is a simulation project that will model the inputs of the user, with graphs and visuals. Based off PHET simulations, 
+  the simulation that I have built not only uses visuals to display the data, but position-time, velocity-time & acceleration-time 
+  graphs as well. The functionality of the site is complemented with a slick U.I, to provide a quality experience to the user.
