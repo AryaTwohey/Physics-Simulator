@@ -351,4 +351,38 @@ input.check1 {
   font-family: Ubuntu, sans-serif;
 
 }
+.faSliderContainer{
+  margin-left: 10px;
+}
+#faSlider{
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%;
+  height: 25px; /* Specified height */
+  background: rgb(252, 251, 251); /* Grey background */
+  outline: none; 
+  opacity: 0.6; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
 
+}
+#faSlider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+#faSlider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: rgb(100, 189, 224); /* Green background */
+  border: 0px solid transparent;
+  border-radius: 100px;
+  cursor: pointer; /* Cursor on hover */
+}
+#faSlider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}

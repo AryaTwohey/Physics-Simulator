@@ -83,8 +83,21 @@
 
         <div class="container" id="inputContainer">
             <div class="container-content">
-                <p class="ml-4 is-size-3 mb-2.5">Enter Info Here</p>
-                <ul class="forces is-flex ">
+                <p class="ml-4 is-size-3">Choose A Mass</p>
+                <ul class="is-flex mt-3">
+                    <li class="ml-3"><button class="button is-borderless"><i class="fa-solid fa-dumbbell is-size-5"><p class="massText">5 KG</p></i></button></li>
+                    <li class="ml-3"><button class="button is-borderless"><i class="fa-solid fa-dumbbell is-size-5"><p class="maxxText">10 KG</p></i></button></li>
+                    <li class="ml-3"><button class="button is-borderless"><i class="fa-solid fa-dumbbell is-size-5"><p class="maxxText">15 KG</p></i></button></li>
+                    <li class="ml-3"><button class="button is-borderless"><i class="fa-solid fa-dumbbell is-size-5"><p class="maxxText">20 KG</p></i></button></li>
+                    <li class="ml-3"><button class="button is-borderless"><i class="fa-solid fa-dumbbell is-size-5"><p class="maxxText">30 KG</p></i></button></li>
+                </ul>
+                <p class="ml-4 is-size-3 mt-3">Applied Force</p>
+                <ul class="sliderContainer is-flex mt-3">
+                <p class="ml-3">0 </p>
+                <li class="faSliderContainer"><input type="range" min="0" max="200" name="ForceApplied" id="faSlider" class="is-danger" steps="1" value="0"></li> 
+                <p class="ml-3">200 N</p>
+                </ul>
+                <!-- <ul class="forces is-flex ">
 
                     <li class="ml-3"><input type="text" class="input" id="fA" placeholder="Force Applied (N)"></li>
                     <li class="ml-3"><input type="text" class="input" id="fF" placeholder="Force Friction (N)"></li>
@@ -118,7 +131,7 @@
                         </li>
 
 
-                    </ul>
+                    </ul> -->
                 </div>
                 <ul class="submit is-flex mt-5">
                     <li class="ml-3"><button class="button" id="submitBtn" onclick="printStuff()">Submit</button></li>
