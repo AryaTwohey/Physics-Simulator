@@ -14,19 +14,31 @@ html {
 
 }
 
-body {
+.indexBody {
   min-height: 100vh;
   font-family: Ubuntu, sans-serif;
   font-weight: 700;
   color: rgb(52, 52, 52);
+  background:linear-gradient(180deg, white, rgba(122, 194, 240, 0.823));
 
 
+}
+.homeBody{
+  min-height: 100vh;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  color: rgb(52, 52, 52);
 }
 
 button {
   font-family: Ubuntu, sans-serif;
   font-weight: 900px;
   font-weight: 500;
+}
+#nav{
+  /* background:linear-gradient(180deg, white,) */
+  background-color: rgb(231, 246, 255);
+
 }
 
 #submit {
